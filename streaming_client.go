@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-const StreamingApiURL = "wss://api-invest.tinkoff.ru/openapi/md/v1/md-openapi/ws"
+const StreamingApiURL = "wss://invest-public-api.tinkoff.ru/openapi/md/v1/md-openapi/ws"
 
 const DefaultPongWait = 60 * time.Second
 const DefaultPingPeriod = 54 * time.Second
